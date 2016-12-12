@@ -1,0 +1,64 @@
+body {
+    position: fixed;
+    margin: 0 !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#main {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Baloo Da';
+    overflow: hidden;
+}
+
+#title {
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#score {
+    line-height: 40px;
+    font-size: 40px;
+}
+
+#highscore {
+    color: #787190;
+    font-size: 25px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#scoreLabel {
+    line-height: 20px;
+    font-size: 20px;
+    color: #787190;
+    text-transform: uppercase;
+}
+
+#startButton {
+    background: whitesmoke;
+    border-radius: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+
+    &.clicked {
+        transform: scale(0.95);
+    }
+}
+
+#canvas {
+    margin: 10px 0;
+    background: whitesmoke;
+}

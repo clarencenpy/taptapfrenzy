@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# version 0.11
+
+CACHE: 
+index.html
+index.js
+styles.css
+//code.jquery.com/jquery-3.1.1.min.js
+//cdnjs.cloudflare.com/ajax/libs/jcanvas/16.7.3/jcanvas.min.js
+//fonts.googleapis.com/css?family=Baloo+Da
+//fonts.gstatic.com/s/balooda/v1/iG3AW_qczXmCJOjnWOGIRXYhjbSpvc47ee6xR_80Hnw.woff2
+
+NETWORK: 
+*
